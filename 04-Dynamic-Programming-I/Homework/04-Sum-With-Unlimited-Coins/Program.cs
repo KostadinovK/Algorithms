@@ -8,25 +8,26 @@ public class Program
         int[] coins = Console.ReadLine().Split().Select(int.Parse).ToArray();
         int sum = int.Parse(Console.ReadLine());
 
-        int[,] sums = new int[coins.Length,sum + 1];
+        int[,] sums = new int[coins.Length + 1, sum + 1];
 
-        for (int i = 0; i < coins.Length; i++)
+        for (int i = 0; i <= coins.Length; i++)
         {
             sums[i, 0] = 1;
         }
 
-        for (int currentCoinIndex = 1; currentCoinIndex < coins.Length; currentCoinIndex++)
+        for (int nextCoinIndex = 1; nextCoinIndex <= coins.Length; nextCoinIndex++)
         {
-            int currentCoin = coins[currentCoinIndex - 1];
-            for (int currentSum = 1; currentSum < sums.Length; currentSum++)
+            int currentCoinIndex = nextCoinIndex - 1;
+            for (int currentSum = 1; currentSum <= sum; currentSum++)
             {
-                if (currentCoin <= currentSum)
+                if (coins[currentCoinIndex] <= currentSum)
                 {
-                    sums[currentCoinIndex, currentSum] = sums[currentCoinIndex - 1, currentSum] + sums[currentCoinIndex, currentSum - coins[currentCoinIndex - 1]];
+                    sums[nextCoinIndex, currentSum] = sums[currentCoinIndex, currentSum] +
+                                                      sums[nextCoinIndex, currentSum - coins[currentCoinIndex]];
                 }
                 else
                 {
-                    sums[currentCoinIndex, currentSum] = sums[currentCoinIndex - 1, currentSum];
+                    sums[nextCoinIndex, currentSum] = sums[currentCoinIndex, currentSum];
                 }
             }
         }

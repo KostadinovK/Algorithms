@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Longest-ZigZag-Subsequen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-Dividing-Presents", "03-Dividing-Presents\03-Dividing-Presents.csproj", "{76903564-08DD-4F6A-888D-11D29DD4D840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Sum-With-Unlimited-Coins", "04-Sum-With-Unlimited-Coins\04-Sum-With-Unlimited-Coins.csproj", "{2A9F5C80-CF7F-492D-8437-78F4CEC77222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-Sum-With-Unlimited-Coins", "04-Sum-With-Unlimited-Coins\04-Sum-With-Unlimited-Coins.csproj", "{2A9F5C80-CF7F-492D-8437-78F4CEC77222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Sum-with-Limited-Coins", "05-Sum-with-Limited-Coins\05-Sum-with-Limited-Coins.csproj", "{C94B746E-04BD-417A-8013-F14140D75BF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2A9F5C80-CF7F-492D-8437-78F4CEC77222}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A9F5C80-CF7F-492D-8437-78F4CEC77222}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A9F5C80-CF7F-492D-8437-78F4CEC77222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94B746E-04BD-417A-8013-F14140D75BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94B746E-04BD-417A-8013-F14140D75BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94B746E-04BD-417A-8013-F14140D75BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94B746E-04BD-417A-8013-F14140D75BF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
