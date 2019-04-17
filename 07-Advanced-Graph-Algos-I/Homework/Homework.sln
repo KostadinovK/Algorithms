@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Cable-Network", "01-Cable-Network\01-Cable-Network.csproj", "{5B42B8C3-7992-4CC4-AEB8-7313471798AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Modified-Kruskal-Algorithm", "02-Modified-Kruskal-Algorithm\02-Modified-Kruskal-Algorithm.csproj", "{F950099C-2C16-4970-BF5D-8EA48AABF373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Most-Reliable-Path", "03-Most-Reliable-Path\03-Most-Reliable-Path.csproj", "{AB45D1BF-0850-498D-96D8-41C0B1A5B065}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B42B8C3-7992-4CC4-AEB8-7313471798AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B42B8C3-7992-4CC4-AEB8-7313471798AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B42B8C3-7992-4CC4-AEB8-7313471798AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B42B8C3-7992-4CC4-AEB8-7313471798AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F950099C-2C16-4970-BF5D-8EA48AABF373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F950099C-2C16-4970-BF5D-8EA48AABF373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F950099C-2C16-4970-BF5D-8EA48AABF373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F950099C-2C16-4970-BF5D-8EA48AABF373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB45D1BF-0850-498D-96D8-41C0B1A5B065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB45D1BF-0850-498D-96D8-41C0B1A5B065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB45D1BF-0850-498D-96D8-41C0B1A5B065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB45D1BF-0850-498D-96D8-41C0B1A5B065}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0E7BDEF-6AED-49AE-8BE6-5B1B0B383FF0}
+	EndGlobalSection
+EndGlobal
