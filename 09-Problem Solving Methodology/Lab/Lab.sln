@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Blocks", "01-Blocks\01-Blocks.csproj", "{FAD4178C-B56C-4262-BB56-BF27A941B3C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Zig-Zag-Matrix", "02-Zig-Zag-Matrix\02-Zig-Zag-Matrix.csproj", "{4372EF2E-C1BE-4857-8A70-D1AB6E362E3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAD4178C-B56C-4262-BB56-BF27A941B3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD4178C-B56C-4262-BB56-BF27A941B3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD4178C-B56C-4262-BB56-BF27A941B3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD4178C-B56C-4262-BB56-BF27A941B3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4372EF2E-C1BE-4857-8A70-D1AB6E362E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4372EF2E-C1BE-4857-8A70-D1AB6E362E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4372EF2E-C1BE-4857-8A70-D1AB6E362E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4372EF2E-C1BE-4857-8A70-D1AB6E362E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C9A801E-D417-4F73-8EC6-6B09E421A548}
+	EndGlobalSection
+EndGlobal
